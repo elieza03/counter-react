@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Soft Aesthetic Background */
+.coquette-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fff0f5; /* Lavender Blush */
+  background-image: radial-gradient(#fbcce7 0.5px, transparent 0.5px);
+  background-size: 20px 20px; /* Subtle polka dots */
+  font-family: 'Georgia', serif;
+}
+
+/* The Dainty Card */
+.coquette-card {
+  background: white;
+  padding: 30px;
+  border-radius: 30px;
+  border: 2px solid #fbcce7;
+  box-shadow: 0 10px 25px rgba(251, 204, 231, 0.5);
+  text-align: center;
+  width: 320px;
+  position: relative;
+}
+
+.ribbon-icon {
+  font-size: 2rem;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+h1 {
+  color: #d4a5b9;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.count-number {
+  font-size: 3.5rem;
+  color: #fbcce7;
+  text-shadow: 1px 1px #fff;
+  margin: 10px 0;
+}
+
+.goal-text {
+  color: #d4a5b9;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+/* Buttons */
+.coquette-buttons {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.pink-btn, .soft-btn {
+  border: 1px solid #fbcce7;
+  padding: 8px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: white;
+  color: #d4a5b9;
+  transition: 0.3s;
+}
+
+.pink-btn:hover {
+  background: #fbcce7;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Input */
+.dainty-input {
+  width: 90%;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid #fbcce7;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  color: #d4a5b9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.live-note {
+  color: #d4a5b9;
+  font-size: 0.9rem;
+  margin-top: 10px;
 }
