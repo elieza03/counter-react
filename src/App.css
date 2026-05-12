@@ -1,16 +1,16 @@
-/* Soft Aesthetic Background */
+
 .coquette-container {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #fff0f5; /* Lavender Blush */
+  background-color: #fff0f5;
   background-image: radial-gradient(#fbcce7 0.5px, transparent 0.5px);
-  background-size: 20px 20px; /* Subtle polka dots */
+  background-size: 20px 20px;
   font-family: 'Georgia', serif;
 }
 
-/* The Dainty Card */
+
 .coquette-card {
   background: white;
   padding: 30px;
@@ -49,7 +49,7 @@ h1 {
   font-size: 1.1rem;
 }
 
-/* Buttons */
+
 .coquette-buttons {
   display: flex;
   gap: 8px;
@@ -72,7 +72,7 @@ h1 {
   color: white;
 }
 
-/* Input */
+
 .dainty-input {
   width: 90%;
   margin-top: 20px;
